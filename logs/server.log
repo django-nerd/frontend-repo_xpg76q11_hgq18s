@@ -1,0 +1,57 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 325 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.9.62:3000/
+10:04:24 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/SideNav.jsx:10:79: ERROR: Unterminated string literal
+10:04:25 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/SideNav.jsx:10:79: ERROR: Unterminated string literal
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/SideNav.jsx:10:79
+  
+  Unterminated string literal
+  8  |      <div className={`relative grid place-items-center w-10 h-10 rounded-lg ${
+  9  |        active ? 'bg-gradient-to-br from-cyan-400/30 to-emerald-400/20' : 'bg-white/5'
+  10 |      } border border-cyan-300/10 shadow-[0_0_20px_-6px_rgba(34,211,238,0.35)]`">
+     |                                                                                 ^
+  11 |        <Icon className={`w-5 h-5 transition-colors ${active ? 'text-cyan-300' : 'text-cyan-200/70 group-hover:text-cyan-200'}`} />
+  12 |        <div className="absolute inset-0 rounded-lg bg-cyan-300/10 opacity-0 group-hover:opacity-100 transition-opacity" />
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+10:04:45 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/SideNav.jsx:10:79: ERROR: Unterminated string literal
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/SideNav.jsx:10:79
+  
+  Unterminated string literal
+  8  |      <div className={`relative grid place-items-center w-10 h-10 rounded-lg ${
+  9  |        active ? 'bg-gradient-to-br from-cyan-400/30 to-emerald-400/20' : 'bg-white/5'
+  10 |      } border border-cyan-300/10 shadow-[0_0_20px_-6px_rgba(34,211,238,0.35)]`">
+     |                                                                                 ^
+  11 |        <Icon className={`w-5 h-5 transition-colors ${active ? 'text-cyan-300' : 'text-cyan-200/70 group-hover:text-cyan-200'}`} />
+  12 |        <div className="absolute inset-0 rounded-lg bg-cyan-300/10 opacity-0 group-hover:opacity-100 transition-opacity" />
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
